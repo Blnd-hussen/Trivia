@@ -1,0 +1,177 @@
+$body-font-family: arial
+$body-background-color: #fff
+$body-color: #212529
+$body-font-size: 1rem
+$body-font-weight: 400
+$body-line-height: 1.5
+$body-margin: 0
+$body-text-align: left
+
+$container-margin-left: auto
+$container-margin-right: auto
+$container-padding-left: 15px
+$container-padding-right: 15px
+
+$header-background-color: #477bff
+$header-color: #fff
+$header-margin-bottom: 2rem
+$header-padding: 2rem 1rem
+$header-text-align: center
+
+$section-padding: 0.5rem 2rem 1rem 2rem
+
+$hover-section-background-color: #f5f5f5
+$hover-section-transition: color 2s ease-in-out, background-color 0.15s ease-in-out
+
+$h1-font-family: 'Montserrat', sans-serif
+$h1-font-size: 48px
+
+$hover-button-background-color: #333
+$hover-button-color: white
+$hover-button-cursor: pointer
+
+$button-background-color: #d9edff
+$button-border: 1px solid transparent
+$button-border-radius: 0.25rem
+$button-font-size: 0.95rem
+$button-font-weight: 400
+$button-line-height: 1.5
+$button-padding: 0.375rem 0.75rem
+$button-text-align: center
+$button-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+$button-vertical-align: middle
+
+$text-input-line-height: 1.8
+$text-input-width: 25%
+
+$hover-text-input-background-color: #f5f5f5
+$hover-text-input-transition: color 2s ease-in-out, background-color 0.15s ease-in-out
+
+$question-container-display: flex
+$question-container-column-gap: 5px
+$question-container-margin: 25px 0
+
+$response-button-background-color: #333
+$response-button-color: white
+$response-button-padding: 4px 10px
+$response-button-font-size: 16px
+$response-button-vertical-align: top
+
+$response-input-font-size: 16px
+
+$response-button-hover-opacity: 0.8
+
+$score-board-position: fixed
+$score-board-right: 50px
+$score-board-bottom: 20px
+
+$score-board-background-color: #333
+$score-board-color: white
+$score-board-padding: 5px 15px
+$score-board-border-radius: 5px
+
+$response-p-padding-bottom: 0
+$response-p-margin-bottom: 0
+$response-p-font-weight: bold
+
+body
+  font-family: $body-font-family
+  background-color: $body-background-color
+  color: $body-color
+  font-size: $body-font-size
+  font-weight: $body-font-weight
+  line-height: $body-line-height
+  margin: $body-margin
+  text-align: $body-text-align
+
+.container
+  margin-left: $container-margin-left
+  margin-right: $container-margin-right
+  padding-left: $container-padding-left
+  padding-right: $container-padding-right
+
+.header
+  background-color: $header-background-color
+  color: $header-color
+  margin-bottom: $header-margin-bottom
+  padding: $header-padding
+  text-align: $header-text-align
+
+.section
+  padding: $section-padding
+
+.section:hover
+  background-color: $hover-section-background-color
+  transition: $hover-section-transition
+
+h1
+  font-family: $h1-font-family
+  font-size: $h1-font-size
+
+button:hover
+  background-color: $hover-button-background-color
+  color: $hover-button-color
+  cursor: $hover-button-cursor
+
+button, input[type="submit"]
+  background-color: $button-background-color
+  border: $button-border
+  border-radius: $button-border-radius
+  font-size: $button-font-size
+  font-weight: $button-font-weight
+  line-height: $button-line-height
+  padding: $button-padding
+  text-align: $button-text-align
+  transition: $button-transition
+  vertical-align: $button-vertical-align
+
+input[type="text"]
+  line-height: $text-input-line-height
+  width: $text-input-width
+
+input[type="text"]:hover
+  background-color: $hover-text-input-background-color
+  transition: $hover-text-input-transition
+
+.question-container
+  display: $question-container-display
+  column-gap: $question-container-column-gap
+  margin: $question-container-margin
+
+.question-container p
+  margin: 0
+  text-align: center
+
+.response
+  padding-bottom: 15px
+
+.response button
+  background-color: $response-button-background-color
+  color: $response-button-color
+  padding: $response-button-padding
+  font-size: $response-button-font-size
+  vertical-align: $response-button-vertical-align
+
+.response input
+  font-size: $response-input-font-size
+
+.response button:hover
+  opacity: $response-button-hover-opacity
+
+.score-board
+  position: $score-board-position
+  right: $score-board-right
+  bottom: $score-board-bottom
+  background-color: $score-board-background-color
+  color: $score-board-color
+  padding: $score-board-padding
+  border-radius: $score-board-border-radius
+
+.score-board p
+  margin: 0
+  paddng: 0
+
+.response p
+  padding-bottom: $response-p-padding-bottom
+  margin-bottom: $response-p-margin-bottom
+  font-weight: $response-p-font-weight
